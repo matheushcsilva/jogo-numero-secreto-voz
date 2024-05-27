@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,100..700;1,100..700&display=swap');
+
+:root{
+    --font-family:"Josefin Slab", serif;
+    --primary-color:#040D12;
+    --secundary-color:#183D3D;
+    ---terciary-color:#5C8374;
+    --quarternary-color:#93B1A6;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: var(--primary-color);
+    color: var(--quarternary-color);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: var(--font-family);
+}
+h1{
+    font-size: 5rem;
+}
+h2{
+    font-size: 5rem;
+}
+h3{
+    margin-top: 2rem;
+    font-size: 4rem;
+}
+.mensagem{
+    font-size: 2.5rem;
+    margin-top: 1rem;
+}
+.box{
+    border: var(---terciary-color) 3px solid;
+    display: inline-block;
+    font-size: 4rem;
+    padding: 1.5rem;
+    margin: 2rem;
+}
+.btn-restart{
+    padding: 1rem 2rem;
+    border: 0;
+    background-color: var(--secundary-color);
+    margin-top: 1rem;
+    font-size: 2rem;
+    border-radius: 1rem;
+    color: var(--quarternary-color);
+    cursor: pointer;
+
+}
